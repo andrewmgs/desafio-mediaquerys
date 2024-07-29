@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cymetria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+    <h2>Estudiantes de Cymetria</h2>
+    <form action="/infoFormulario" method="post">
+        <p>        
+            <label for="nombre">Nombre Completo</label> <br>
+            <input type="text" name="nombre" id="nombre">
+        </p>
+        <p>
+            <label for="correo">Email</label> <br>
+            <input type="mail" name="correo" id="correo">            
+        </p>
+        <p>
+            <label for="curso">¿Qué curso estás tomando en Cymetria?</label> <br>
+            <input type="radio" name="curso" value="SQL- SERVER">
+            <label for="curso">SQL- SERVER</label> <br>
+            <input type="radio" name="curso" value="Frontend" checked>
+            <label for="curso">Frontend</label> <br>
+            <input type="radio" name="curso" value="FullStack">
+            <label for="curso">FullStack</label> <br>
+        </p>
+        <p>
+            <label for="lengujaes">¿Cuales lenguajes de programación te gustaría seguir aprendiendo?</label> <br>
+            <input type="checkbox" name="lenguajes" value="Python">
+            <label for="curso">Python</label> <br>
+            <input type="checkbox" name="lenguajes" value="JavaScript" checked>
+            <label for="curso">JavaScript</label> <br>
+            <input type="checkbox" name="lenguajes" value=".Net">
+            <label for="curso">.Net</label> <br>
+            <input type="checkbox" name="lenguajes" value="Java" >
+            <label for="curso">Java</label> <br>
+            <input type="checkbox" name="lenguajes" value="NodeJs" checked>
+            <label for="curso">NodeJs</label> <br>
+            <input type="checkbox" name="lenguajes" value="PHP">
+            <label for="curso">PHP</label> <br>
+        </p>
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+<div class="ejemplos">
+<form action="">
+        <fieldset>
+        <legend>Input Text</legend> <br />
+        <label for="nombre">Input Text Label</label> <br>
+        <input type="text" name="nombre" id="nombre" value="Type here" legend> <br>
+        <span class="help-block">Assistive text</span>
+
+        <legend>Input Text</legend> <br />
+        <label for="nombre">Input Text Label</label> <br>
+        <input type="text" name="nombre" id="nombre" value="Typing |" legend> <br>
+        <span class="help-block">Assistive text</span>
+
+        </fieldset>
+</form>
+
+</div>
+</body>
+</html>
