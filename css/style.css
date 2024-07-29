@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@media (max-width: 1500px){
+
+body {
+    padding: 0px 20px;
+    font-family: Inter;
+    
+}
+
+.header {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header img {
+    width: 50%;
+}
+
+
+nav p {
+    display: none;
+
+}
+
+ul {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+    color: white;
+}
+
+.principal {
+    display: flex;
+}
+
+.navigation {
+    background-color: blue;
+    width: 70%;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navimagen img {
+    width: 90%;
+    padding: 10px;
+}
+
+.textarticle {
+    padding: 0px 10px;
+}
+
+.buscador {
+    text-align: center;
+}
+
+.asidea {
+    width: 30%;
+    background-color: blanchedalmond;
+}
+
+.asidea div {
+    background-color: azure;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+.asidea div p {
+    text-align: center;
+
+}
+
+article {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+}
+
+@media (max-width: 1024px){
+
+body {
+    padding: 0;
+}
+
+.navigation {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 100%;
+}
+
+.asidea {
+    width: 50%;
+}
+
+}
+
+@media (max-width: 600px){
+
+.header {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.principal {
+    display: block;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.asidea {
+    width: 100%;
+}
+
+article {
+    display: block;
+    text-align: center;
+    justify-content: center
+}
+
+ul {
+    display: none;
+}
+
+nav p {
+    display: block;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+}
